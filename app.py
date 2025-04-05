@@ -695,7 +695,7 @@ def export_to_word(result_id):
         
         try:
             response = requests.post(
-                'https://pandoc-server-2025.fly.dev/convert',
+                'https://pandoc-ggs.onrender.com/convert',
                 headers={'Content-Type': 'application/json'},
                 json={'markdown': markdown_content},
                 timeout=120  # Tăng timeout cho Pandoc API
