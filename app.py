@@ -185,7 +185,7 @@ def count_pdf_pages(file_path):
 def check_activation(hardware_id):
     """Kiểm tra xem hardware ID có được kích hoạt không"""
     try:
-        url = "https://raw.githubusercontent.com/thayphuctoan/pconvert/refs/heads/main/convert-special-1"
+        url = "https://raw.githubusercontent.com/thayphuctoan/pconvert/refs/heads/main/ocr-trial"
         response = requests.get(url, timeout=(30, 60))  # Tăng timeout cho request này
         
         if response.status_code == 200:
